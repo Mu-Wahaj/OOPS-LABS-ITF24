@@ -1,0 +1,4 @@
+g++ Packet.cpp NetworkInterface.cpp NetworkNode.cpp NetworkSimulator.cpp main.cpp -o network_sim
+
+
+./network_sim

@@ -7,7 +7,9 @@ void MyVector::resize(int newCapacity)
 {
     int *temp = new int[newCapacity];
     for (int i = 0; i < size; i++)
+    {
         temp[i] = arr[i];
+    }
 
     delete[] arr;
     arr = temp;
